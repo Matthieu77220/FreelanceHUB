@@ -3,17 +3,12 @@
     require_once "class/db/connexion_bdd.php";
 
     $connexion = new Connexion();
-
-    $user = $connexion->getUser();
-    var_dump($user);
-    $pass = $connexion->getPass();
-    var_dump($pass);
- 
+    $connexion->connect();
 ?>
 
 <html lang="FR-fr">
     <head>
-        <link rel="icon" href="img/freelance.ico">
+        <link rel="icon" type="image/x-icon" href="img/freelance.ico" >
         <title>FreelanceHub</title>
     </head>
 </html>
