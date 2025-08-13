@@ -7,6 +7,7 @@ class Connexion{
 
    public function connect() {
      return $dbh = new PDO('mysql:host=localhost;dbname=freelancehub', $this->user, $this->pass);
+     //méthode contenant la connexion à la bdd
    }
 
 }
