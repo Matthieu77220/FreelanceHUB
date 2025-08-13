@@ -1,14 +1,13 @@
 <?php
-
-    require_once "class/db/connexion_bdd.php";
-
-    $connexion = new Connexion();
-    $connexion->connect();
+    require_once "assets/Head.php";
 ?>
 
-<html lang="FR-fr">
-    <head>
-        <link rel="icon" type="image/x-icon" href="img/freelance.ico" >
-        <title>FreelanceHub</title>
-    </head>
-</html>
+<body>
+    <button 
+    type="button"
+    >
+    <a href="class/auth/Form.php">
+        Formulaire
+    </a>
+    </button>
+</body>
