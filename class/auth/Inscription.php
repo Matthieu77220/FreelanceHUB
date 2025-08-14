@@ -6,7 +6,7 @@
         private $pdo;
 
         public function __construct(){
-            $this->pdo = UseConnexion::useConnect(); // appelle dde la méthode static useConnect() de la class UseConnexion pour récupérer l'objet PDO retourné et le stocké dans l'attribut $pdo 
+            $this->pdo = UseConnexion::useConnect(); // appelle de la méthode static useConnect() de la class UseConnexion pour récupérer l'objet PDO retourné et le stocké dans l'attribut $pdo 
         }
 
         public function inscription($prénom, $nom, $email, $password){
